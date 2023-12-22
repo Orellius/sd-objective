@@ -34,14 +34,16 @@ Objective Progress UI is a customizable in-game UI resource for FiveM servers, d
 ### Example Usage
 
 ```lua
--- Start an objective
-exports['your-resource']:ShowObjectiveUI('Title', 'Description', 4)
+- `ShowObjectiveUI(title, description, steps)`
+   - `title`: The title of the objective (e.g., "Retrieve the Artifact").
+   - `description`: A brief description of the objective (e.g., "Go to the ancient ruins and retrieve the artifact").
+   - `steps`: Total number of steps required to complete the objective (e.g., if an objective has 4 steps, use `4`).
 
 -- Update progress
-exports['your-resource']:UpdateProgress()
+exports['sd-objective']:UpdateProgress()
 
 -- Hide the UI
-exports['your-resource']:HideObjectiveUI()
+exports['sd-objective']:HideObjectiveUI()
 ```
 
 ## Customization
