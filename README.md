@@ -2,6 +2,9 @@
 
 It essentially serves as an 'Objective Tracker' that can be seamlessly integrated into any of your scripts, providing players with an aesthetically pleasing UI element that clearly indicates their progress through a certain task.
 
+Feel free to star the repository and check out my store and discord @ Discord: https://discord.gg/samueldev & Store: https://fivem.samueldev.shop 
+For support inquires please create a post in the support-forum channel on discord or create an issue here on Github.
+
 ## Installation
 
 1. Clone or download this resource.
