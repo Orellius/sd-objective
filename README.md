@@ -40,3 +40,34 @@ exports['sd-objective']:UpdateProgress()
 exports['sd-objective']:HideObjectiveUI()
 ```
 
+## Contextual Example
+```lua
+RegisterNetEvent('sd-oxyrun:client:getBox', function()
+    local player = PlayerPedId()
+
+    if gettingBox then
+        if not holdingBox then
+            if not IsPedInAnyVehicle(player, false) then -- Check if player is not in a vehicle
+                amountOfBox = deliveries
+                TriggerServerEvent('sd-oxyrun:server:addItem', SupplierPosition, isOnRun)
+                if currentBoxes < amountOfBox then
+                    currentBoxes = currentBoxes + 1
+
+                    exports['sd-objective']:UpdateProgress()
+
+                    ShowNotification(''.. currentBoxes .. '/' .. amountOfBox .. '')
+
+                    if currentBoxes == amountOfBox then
+                        -- do something cool
+                    end
+                end
+            end
+        end
+    end
+end)
+
+-- Call this when starting the box collection task
+exports['sd-objective']:ShowObjectiveUI('Box Collection', 'Collect the boxes', amountOfBox)
+```
+
+
