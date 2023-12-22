@@ -5,7 +5,12 @@ It essentially serves as an 'Objective Tracker' that can be seamlessly integrate
 Feel free to star the repository and check out my store and discord @ Discord: https://discord.gg/samueldev & Store: https://fivem.samueldev.shop 
 For support inquires please create a post in the support-forum channel on discord or create an issue here on Github.
 
-![VlCB5nZ](https://github.com/Samuels-Development/sd-objective/assets/99494967/e0a7e599-105d-4e77-9cac-e234722e2c80)![6yaxbaU](https://github.com/Samuels-Development/sd-objective/assets/99494967/1bc4130f-f8a7-46aa-ab33-5507631e7cc4)
+## Preview
+
+![VlCB5nZ](https://github.com/Samuels-Development/sd-objective/assets/99494967/e0a7e599-105d-4e77-9cac-e234722e2c80)!   [6yaxbaU](https://github.com/Samuels-Development/sd-objective/assets/99494967/1bc4130f-f8a7-46aa-ab33-5507631e7cc4)
+
+### Video Preview
+https://www.youtube.com/watch?v=B0CuSTtjuiU&feature=youtu.be
 
 ## Installation
 
