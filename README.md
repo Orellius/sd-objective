@@ -1,21 +1,12 @@
 # sd-objective
 
-## Overview
-
-Objective Progress UI is a customizable in-game UI resource for FiveM servers, designed to display and track objectives and their progress.
-
-## Features
-
-- **Dynamic Progress Tracking:** Real-time updates of objectives.
-- **Customizable Appearance:** Configurable themes, colors, and positions.
-- **Smooth UI Transitions:** Fade-in and fade-out effects for UI visibility.
-- **Exports for Integration:** Control UI from other resources.
+It essentially serves as an 'Objective Tracker' that can be seamlessly integrated into any of your scripts, providing players with an aesthetically pleasing UI element that clearly indicates their progress through a certain task ('objective')
 
 ## Installation
 
 1. Clone or download this resource.
 2. Place it in the server's resource directory.
-3. Add the resource to your server config.
+3. Add the resource to your server config, if needed.
 
 ## Usage
 
@@ -32,23 +23,20 @@ Objective Progress UI is a customizable in-game UI resource for FiveM servers, d
 
 ### Event Handlers
 
-- `sd-objective:client:showUI`
-- `sd-objective:client:updateProgress`
-- `sd-objective:client:hideUI`
+- `sd-objective:client:showUI` (eg. ShowObjectiveUI)
+- `sd-objective:client:updateProgress` (eg. UpdateProgress)
+- `sd-objective:client:hideUI` (eg. HideObjectiveUI)
 
 ### Example Usage
 
 ```lua
 -- Start an objective
-exports['your-resource']:ShowObjectiveUI('Title', 'Description', 4)
+exports['sd-objective']:ShowObjectiveUI('Title', 'Description', 4)
 
 -- Update progress
-exports['your-resource']:UpdateProgress()
+exports['sd-objective']:UpdateProgress()
 
 -- Hide the UI
-exports['your-resource']:HideObjectiveUI()
+exports['sd-objective']:HideObjectiveUI()
 ```
 
-## Customization
-
-Customize UI appearance and behavior through `config.js`.
