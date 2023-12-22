@@ -7,7 +7,7 @@ For support inquires please create a post in the support-forum channel on discor
 
 ## Preview
 
-![VlCB5nZ](https://github.com/Samuels-Development/sd-objective/assets/99494967/e0a7e599-105d-4e77-9cac-e234722e2c80)!   [6yaxbaU](https://github.com/Samuels-Development/sd-objective/assets/99494967/1bc4130f-f8a7-46aa-ab33-5507631e7cc4)
+![VlCB5nZ](https://github.com/Samuels-Development/sd-objective/assets/99494967/e0a7e599-105d-4e77-9cac-e234722e2c80)  ![6yaxbaU](https://github.com/Samuels-Development/sd-objective/assets/99494967/1bc4130f-f8a7-46aa-ab33-5507631e7cc4)
 
 ### Video Preview
 https://www.youtube.com/watch?v=B0CuSTtjuiU&feature=youtu.be
