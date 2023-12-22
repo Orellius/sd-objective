@@ -1,47 +1,49 @@
 # sd-objective
 
-It provides an elegant and intuitive way to display objectives and track progress in-game. With customizable themes, positions, and progress animations.
+## Overview
 
-# Features
-- Dynamic Progress Tracking: Display and update objectives and their progress in real-time.
-- Customizable Appearance: Configure themes, colors, and positions to match your game's style.
-- Fade-In/Fade-Out Animations: Smooth transitions for showing and hiding the UI.
-- Exports for Easy Integration: Use exports to control the UI from other resources.
+Objective Progress UI is a customizable in-game UI resource for FiveM servers, designed to display and track objectives and their progress.
 
-# Installation
-1. Clone the repository or download the resource.
-2. Place the resource in your server's resource directory.
-3. Add the resource to your server's configuration.
-4. Ensure config.js is correctly set up to reflect your preferred settings.
+## Features
 
-# Usage
-## Exports
-ShowObjectiveUI(title, description, steps): Display the UI with a specific objective.
+- **Dynamic Progress Tracking:** Real-time updates of objectives.
+- **Customizable Appearance:** Configurable themes, colors, and positions.
+- **Smooth UI Transitions:** Fade-in and fade-out effects for UI visibility.
+- **Exports for Integration:** Control UI from other resources.
 
-title: The title of the objective.
-description: A brief description of the objective.
-steps: Total number of steps to complete the objective.
+## Installation
 
-UpdateProgress(): Update the progress of the current objective. Should be called when a step towards the objective's completion is made.
+1. Clone or download this resource.
+2. Place it in the server's resource directory.
+3. Add the resource to your server config.
 
-HideObjectiveUI(): Immediately hide the UI, regardless of progress.
+## Usage
 
-# Event Handlerssd-objective:client:showUI: Triggers the UI to show with the specified objective details.
-sd-objective:client:updateProgress: Updates the progress of the objective.
-sd-objective:client:hideUI: Hides the UI immediately.
-Examples
-Starting an Objective
-lua
-Copy code
--- Starting an objective with 4 steps
-exports['your-resource-name']:ShowObjectiveUI('Objective Title', 'Objective Description', 4)
-Updating Progress
-lua
-Copy code
--- Update progress typically called upon completion of a step
-exports['your-resource-name']:UpdateProgress()
-Hiding the UI
-lua
-Copy code
+### Exports
+
+- `ShowObjectiveUI(title, description, steps)`
+- `UpdateProgress()`
+- `HideObjectiveUI()`
+
+### Event Handlers
+
+- `sd-objective:client:showUI`
+- `sd-objective:client:updateProgress`
+- `sd-objective:client:hideUI`
+
+### Example Usage
+
+```lua
+-- Start an objective
+exports['your-resource']:ShowObjectiveUI('Title', 'Description', 4)
+
+-- Update progress
+exports['your-resource']:UpdateProgress()
+
 -- Hide the UI
-exports['your-resource-name']:HideObjectiveUI()
+exports['your-resource']:HideObjectiveUI()
+```
+
+## Customization
+
+Customize UI appearance and behavior through `config.js`.
